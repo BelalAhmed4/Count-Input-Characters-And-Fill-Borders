@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+div {
+  margin: 10rem auto;
+  width: 60vw;
+  max-width: 20rem;
+}
+div input:focus {
+  outline: none;
+}
+div input {
+  border: none;
+  border-bottom: 2px solid #d7d7d7;
+  padding: 0.5rem;
+  width: 100%;
+}
+div .progress {
+  position: relative;
+  display: block;
+  margin-top: -2px;
+  height: 2px;
+  width: 0;
+  background-color: rgb(46, 128, 196);
+  transition: 0.3s ease all;
+}
+div .count {
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+.zero {
+  color: rgba(255, 0, 0, 0.781);
+  font-weight: bold;
+}
+.progressLimit {
+  background-color: red !important;
+}
+/* End TG */
